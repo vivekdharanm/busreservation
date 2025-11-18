@@ -44,3 +44,13 @@ public class bus
 		System.out.println("\n Bus No: " + busno + "\n Ac: " + ac + "\n Total Capacity: " + capacity);
 	}
 }
+
+	public void setCapacity(int cap)
+	{
+		capacity = cap;
+	}
+	
+	public void displaybusinfo()
+	{
+		System.out.println("\n Bus No: " + busno + "\n Ac: " + ac + "\n Total Capacity: " + capacity);
+	}
