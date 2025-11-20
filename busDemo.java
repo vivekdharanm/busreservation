@@ -7,7 +7,13 @@ public class busDemo {
 	public static void main(String[] args)
 	{
 		
+		ArrayList<bus> buses = new ArrayList<bus>();
+		ArrayList<bus_booking> bookings = new ArrayList<bus_booking>();
 		
+		buses.add(new bus(1,true,2));
+		buses.add(new bus(2,false,60));
+		buses.add(new bus(3,true,50));
+		buses.add(new bus(4,false,45));
 		 
 		int userOpt=1;
 		Scanner s = new Scanner(System.in);
