@@ -1,18 +1,4 @@
-package bus_reservation;
 
-
-public class bus 
-{
-	private int busno;
-	private boolean ac;
-	private int capacity;
-	
-	bus(int no, boolean ac, int cap)
-	{
-		this.busno=no;
-		this.ac=ac;
-		this.capacity=cap;
-	}
 	
 	public int getBusno()
 	{
