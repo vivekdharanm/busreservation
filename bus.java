@@ -1,6 +1,5 @@
 package bus_reservation;
 
-
 public class bus 
 {
 	private int busno;
