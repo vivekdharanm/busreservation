@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class busDemo {
 	public static void main(String[] args)
 	{
-		
 		ArrayList<bus> buses = new ArrayList<bus>();
 		ArrayList<bus_booking> bookings = new ArrayList<bus_booking>();
 		
